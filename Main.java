@@ -16,6 +16,14 @@ public class Main {
 
         Date dateObj4 = new Date(20);
         System.out.println("Today's date is "+dateObj4.day);
+        System.out.println(dateObj4.year); //print out default value
+        
+        Date dateObj5 = new Date(20,02,2020,"Today is a cool day.");
+        System.out.println("Today is the "+dateObj5.day+ " of " + dateObj5.month + ", " + dateObj5.year );
+        System.out.println(dateObj5.event);
+
         // Call the printDate() method for each object you create.
+        dateObj2.printDate();
+        
     }
 }
