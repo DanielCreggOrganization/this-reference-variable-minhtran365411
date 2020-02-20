@@ -10,12 +10,16 @@ public class Date {
 
     // Default Constructor (No Parameters)
     public Date(){
-        //Your code here
+        //Your code here - set them in default values
+        day = 1;
+        month = 1;
+        year = 1;
     }
 
     // Parameterized constructor (3 Parameters)
     public Date(int newDay, int newMonth, int newYear){
         // Your code here.
+        
     }
     
     // Parameterized constructor (2 Parameters)
